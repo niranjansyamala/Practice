@@ -30,6 +30,9 @@ public class MsAccessJava {
                 System.out.println("Customer Phone : "+ rs.getString(4));
                 System.out.println("+----------------------------------------------------+");
                 System.out.println("\n");
+                
+                
+                System.out.println("New changes");
             }
         } catch (SQLException e) {
             e.printStackTrace();
